@@ -2,7 +2,7 @@
 
 #Home Page todo
 
-[ ] - Get logo from UI/UX for the website page title
+[ ] - Get icon (not logo) from UI/UX for the website page title
 
 [ ] - Get logos from UI/UX and replace my "screenshotted" versions
 
@@ -12,7 +12,7 @@
 
 [ ] - Get video url for the videos
 
-[ ] - Use same exact colours as the UI/UX design
+[x] - Use same exact colours as the UI/UX design
 
 [ ] - Figure out penultimate section of the UI/UX design and include it
 
