@@ -1,0 +1,151 @@
+:root{
+    --primary-purple: #2e1f3e;
+    --primary-pink:#d13b87 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(230, 131, 230, 0.445);
+    padding: 30px 0;
+}
+
+.register-modal{
+    background: whitesmoke;
+    display: block;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 10px #999;
+    position: relative;
+}
+
+.close-btn{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.close-btn:hover{
+    color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.fa-sign-in-alt{
+    font-size: 3em;
+    color: var(--primary-purple);
+    margin-bottom: 10px;
+}
+
+form div {
+    width: 100%;
+}
+
+.email, .password1, .password2, .fullname{
+    position: relative;
+}
+
+.fullname input, .email input, .password1 input, .password2 input{
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid var(--primary-purple);
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fa-user, .fa-unlock{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--primary-purple);
+}
+
+.country, .gender{
+    margin-bottom: 10px;
+}
+
+#country{
+    padding: 10px;
+    border: 1px solid var(--primary-purple);
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    display: inline;
+    color: aliceblue;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: var(--primary-purple);
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.anchor{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #f33c3c;
+    padding-left: 5px;
+}
+
+.sign-in{
+    color: #0c18bd;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sign-in::after{
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 100%;
+    background: #333;
+}
+
+@media(min-width: 700px){
+    .register-modal{
+        width: 40%;
+    }
+}
