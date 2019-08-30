@@ -1,14 +1,45 @@
 body {
     margin: 0 auto;
-    max-width: 800px;
-    width: 100%;
 }
 
 .header {
-    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation.png) no-repeat;
+    background-size: cover;
 }
 
 .donationOption {
     display: flex;
     justify-content: space-between;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+.right {
+    width: 50%;
+}
+
+.right > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right > ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    padding: 8px 16px;
 }
