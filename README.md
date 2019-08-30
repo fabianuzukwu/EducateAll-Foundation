@@ -4,7 +4,7 @@
 
 [ ] - Get icon (not logo) from UI/UX for the website page title
 
-[ ] - Get logos from UI/UX and replace my "screenshotted" versions
+[x] - Get logos from UI/UX and replace my "screenshotted" versions
 
 [ ] - Media queries for tablet, phones, etc
 
