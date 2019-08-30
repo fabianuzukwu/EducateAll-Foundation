@@ -2,14 +2,37 @@ body {
     margin: 0 auto;
 }
 
-.header {
+#header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation.png) no-repeat;
     background-size: cover;
+    padding-bottom: 4em;
+}
+
+.donationOptions {
+    background-color: #210645;
+    color: #FFF;
+}
+
+.donationOptions h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #D8DDF0;
 }
 
 .donationOption {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.donationOption div {
+    border: 1px solid #FFF;
+    padding: 1em;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .container {
@@ -25,21 +48,41 @@ body {
 }
 
 .right {
-    width: 50%;
-}
-
-.right > ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.right > ul li {
-    list-style: none;
-}
 
-ul li a{
+.right a {
     text-decoration: none;
     color: #FFF;
     font-weight: 500;
     padding: 8px 16px;
+}
+
+#donation-link {
+    text-decoration: underline;
+	text-decoration-color: white;
+	text-decoration-line: 5px;
+}
+
+.right a:hover {
+	transform: scale(1.05);
+	color: rgb(200, 200, 200);
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-info {
+    color: #FFF;
+}
+
+.main-info > div {
+    font-size: 64px;
+    line-height: 96px;
+    font-weight: 600;
 }
