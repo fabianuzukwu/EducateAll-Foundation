@@ -157,7 +157,9 @@ footer a
 }
 #title-section
 {
-	background-image: url("../images/schoolkids.jpg");
+	background-image: url("../images/homepage-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	margin-top: 0;
 	background-size: 100%;
 	position: relative;
@@ -324,6 +326,10 @@ footer a
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+#social-media a > img
+{
+	height: 30px;
 }
 #social-media a
 {
