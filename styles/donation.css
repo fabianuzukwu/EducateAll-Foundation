@@ -3,3 +3,12 @@ body {
     max-width: 800px;
     width: 100%;
 }
+
+.header {
+    display: flex;
+}
+
+.donationOption {
+    display: flex;
+    justify-content: space-between;
+}
