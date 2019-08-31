@@ -8,7 +8,9 @@
 
 [ ] - Media queries for tablet, phones, etc
 
-[ ] - Get landing page picture from UI/UX and replace mine
+[ ] - Get content to replace the text placeholders
+
+[x] - Get landing page picture from UI/UX and replace mine
 
 [ ] - Get video url for the videos
 
@@ -16,4 +18,4 @@
 
 [ ] - Figure out penultimate section of the UI/UX design and include it
 
-[ ] - Get social media icons from UI/UX
+[x] - Get social media icons from UI/UX
