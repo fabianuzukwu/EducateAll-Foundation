@@ -27,12 +27,16 @@
                 <div class="donationOptions">
                     <h1>Choose a donation amount</h1>
                     <div class="donationOption">
-                        <div><input type="checkbox" /> <span>₦5</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
-                        <div><input type="checkbox" /> <span>₦10</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
-                        <div><input type="checkbox" /> <span>₦20</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                        <div><input type="radio" name="amount" value="5" /> <span>₦5</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                        <div><input type="radio" name="amount" value="10" /> <span>₦10</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                        <div><input type="radio" name="amount" value="20" /> <span>₦20</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
                     </div>
                     <div class="donationAmount">
-                        <label>enter a custom amount <input type="text"></label>
+                        <label>Enter a custom amount <input type="text" id="amount"></label>
+                        <label>Enter your email <input type="email" id="email"></label>
+                        <label>Enter your first name <input type="text" id="firstname"></label>
+                        <label>Enter your last name <input type="text" id="lastname"></label>
+                        <label>Enter your phone number <input type="tel" id="phone"></label>
                     </div>
                     <h1>Choose a donation frequency</h1>
                     <div class="donationFrequency">

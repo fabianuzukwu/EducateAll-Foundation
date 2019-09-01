@@ -31,8 +31,13 @@ body {
 }
 
 .donationAmount {
-  margin-top: 1em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.donationAmount label {
+  margin-top: 1em;
 }
 
 .donationOption {
