@@ -224,6 +224,40 @@ footer a {
   border-left: 1px solid white;
 }
 
+header > nav
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+  height: 80px;
+}
+header > nav > a
+{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+header > nav > a:hover
+{
+  transform: scale(1.05);
+  text-decoration: underline;
+  text-decoration-color: rgb(200, 200, 200);
+  color: rgb(200, 200, 200);
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+  font-family: Montserrat, segoe UI, sans-serif;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
  
