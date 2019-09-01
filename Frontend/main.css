@@ -63,7 +63,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     height: 90vh;
     padding: 0 10%;
-    background-image: url(../Frontend/img/schoolkids.jpg);
+    background-image: url(img/schoolkids.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +101,7 @@ nav {
     padding-bottom: 20px;
 }
 
-.home-content.content a{
+.content a{
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
