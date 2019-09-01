@@ -260,7 +260,7 @@ const mockTeam = [
 	{
 		name: "Johnson Ubaezuonu",
 		userName: "@Johnson",
-		dept: "BACK END",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
