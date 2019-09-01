@@ -134,8 +134,9 @@ option
 {
 	text-align: center;
 }
-.nav-list a{
+.nav-list a:link{
 	text-decoration: none;
+	color:white;
 }
 .nav-list a:visited{
 	color: cornflowerblue;
