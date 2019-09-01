@@ -379,7 +379,15 @@ header > nav > a:hover
     text-decoration-color: rgb(200, 200, 200);
     color: rgb(200, 200, 200);
 }
-
+#contact-link
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-line: 5px;
+    display: inline-block;
+    position: relative;
+    padding-right: 30px;
+}
 @media screen and (max-width:640px){
     .right ul li {
         width: 100%;
