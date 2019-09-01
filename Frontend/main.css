@@ -109,10 +109,11 @@ nav {
     border-radius: 30px;
     color: #fff;
     transform: scale(1);
+    transition: all 0.5s ease-in-out;
 }
 
 .content a:hover{
-    color: #2e1f3e;
+    transform: scale(1.1);
 }
 
 .home-image{
@@ -268,8 +269,13 @@ nav {
     padding: 5% 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.video1{
+    justify-self: center;
 }
 
 
@@ -435,6 +441,7 @@ footer .top img{
 
     .ham{
         justify-self: flex-end;
+        cursor: pointer;
     }
 
     .ham .line{
@@ -447,6 +454,10 @@ footer .top img{
 
     nav{
         grid-template-columns: 1fr 1fr;
+        width: 100%;
+        background: #fff;
+        position: fixed;
+        z-index: 109;
     }
 
     .menu{
@@ -473,7 +484,7 @@ footer .top img{
     .homepage{
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     padding: 0 2%;
     }
 
@@ -485,6 +496,10 @@ footer .top img{
 
     .mission-head h1{
         font-size: 2em;
+    }
+
+    .mission-content1, .mission-content2{
+        padding: 0 2%;
     }
 
     .mission-content1 p, .mission-content2 p{
