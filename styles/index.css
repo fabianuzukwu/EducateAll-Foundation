@@ -159,6 +159,9 @@ footer a
 	text-decoration: none;
 	color: white;
 }
+.nav-list a:link{
+	color:white;
+}
 .nav-list a:visited{
 	color: cornflowerblue;
 }
