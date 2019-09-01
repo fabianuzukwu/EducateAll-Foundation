@@ -138,16 +138,16 @@ footer a
 {
 	font-size: 20px;
 	text-align: center;
-	padding: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .article > p
 {
-	font-size: 11px;
+	font-size: 12px;
 	display: block;
-	width: 70%;
+	width: 75%;
 	margin: 20px;
-	word-wrap: break-word;
+  padding: 0px 2px 0px 4px;
+	text-align: justify;
 }
 .link-list
 {
@@ -341,4 +341,66 @@ footer a
 #social-media a:hover
 {
 	border: 1px solid white;
+}
+a:link, a:visited {
+  background-color: #444857;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  margin: 0px 0px 0px 48px;
+  display: inline-block;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+a:hover, a:active {
+  background-color: #5959c1;
+}
+#about-wrapper
+{
+	margin-top: 0;
+	height: 50vh;
+	padding-top: 0;
+	background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent);
+}
+#about-title-section
+{
+	background-image: url("../images/about_us.png");
+	background-repeat: no-repeat;
+	background-size:  100%;
+	height: 50vh;
+	margin-top: 0;
+	position: relative;
+	color: white;
+	text-align: left;
+}
+#about_us{
+	background-color: white;
+	width: 960px;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#about_section
+{
+	position: relative;
+	height: 220vh;
+	text-align: center;
+	background: rgb(240, 240, 250);
+}
+.img_about_left{
+	float: right;
+	text-align: right;
+	padding: 40px 20px 5px 0px;
+}
+.img_about_right{
+	float: left;
+	text-align: left;
+	padding: 15px 10px 10px 20px;
+}
+#footer {
+	clear:both;
+}
+td{
+	text-align:justify;
+	padding: 0px 30px 0px 0px;
+	
 }
