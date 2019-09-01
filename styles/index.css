@@ -170,9 +170,18 @@ body.sticky-header-cover{
 	flex-direction: column;
 
 }
+.nav-list a{
+	text-decoration: none;
+	color: white;
+}
+.nav-list a:visited{
+	color: cornflowerblue;
+}
 #title-section
 {
-	background-image: url("../images/schoolkids.jpg");
+	background-image: url("../images/homepage-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	margin-top: 0;
 	background-size: 100%;
 	position: relative;
@@ -216,7 +225,7 @@ body.sticky-header-cover{
 	border-radius: 30px;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
 	margin-left: 100px;
-	margin-top: 80px;
+	margin-top: 50px;
 	background-color: white;
 	color: var(--blue);
 }
@@ -279,7 +288,8 @@ body.sticky-header-cover{
 }
 #talk-section-right > p
 {
-	font-size: 20px;
+	font-size: 17px;
+	line-height: 1.5;
 	display: block;
 	width: 80%;
 	margin: 20px auto;
@@ -339,6 +349,10 @@ body.sticky-header-cover{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+#social-media a > img
+{
+	height: 30px;
 }
 #social-media a
 {

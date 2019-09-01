@@ -1,0 +1,185 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0)), url(contactpage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Raleway, Candara, segoe UI, sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    opacity: 8;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+
+ul li a:hover {
+    color: #fff;
+    background: rgb(74, 60, 103);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transform: scale(1.1)        ;
+    -webkit-transform: scale(1.1)        ;
+    -moz-transform: scale(1.1)        ;
+    -ms-transform: scale(1.1)        ;
+    -o-transform: scale(1.1)        ;
+}
+
+
+section{
+    text-align: center;
+    margin-top: 40px; 
+}
+
+
+.header h1{
+    font-size: 43px;
+    font-weight: bold;
+    font-family: Microsoft JhengHei UI ;
+}
+
+.header p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.msg-share{
+    width: 100%;
+    margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    outline:none;
+}
+.msg-share::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+.msg-share:focus {
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+    background: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#msg{
+    margin-top: 50px;
+    height: 90px;
+}
+
+.btn-send{
+    border: none;
+	cursor: pointer;
+	transition: 0.4s ease-out;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
+    margin-top: 70px;
+    background-color: white;
+    color: #2E1F3E;
+}
+
+.btn-send:hover{
+    padding-right: 80px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background: #2E1F3E;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.newsletter div {
+    margin: auto;
+}
+
+div button{
+    border: none;
+	cursor: pointer;
+	transition: 0.4s ease-out;
+    padding: 10px 50px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
+    background-color: white;
+    color: #2E1F3E;
+}
+
+div button:hover {
+    padding-right: 60px;
+}
+
+.newsletter-mail{
+    border: none;
+    border-bottom: 1px solid;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    outline:none;
+}
+
+.newsletter-mail::placeholder{
+    color: White;
+    font-weight: bold;
+}
+
+.newsletter-mail:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+    background: white;
+    color: black;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
