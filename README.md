@@ -28,3 +28,5 @@
 [x] - Get picture used for team page design from UI/UX team
 
 [ ] - Implement dropdown for team link in the header's navbar
+
+[ ] - Media queries for team page
