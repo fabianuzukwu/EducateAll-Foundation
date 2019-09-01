@@ -27,12 +27,20 @@
                 <div class="donationOptions">
                     <h1>Choose a donation amount</h1>
                     <div class="donationOption">
-                        <div><input type="checkbox" /> <span>$5</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
-                        <div><input type="checkbox" /> <span>$10</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
-                        <div><input type="checkbox" /> <span>$20</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                        <div><input type="checkbox" /> <span>₦5</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                        <div><input type="checkbox" /> <span>₦10</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
+                        <div><input type="checkbox" /> <span>₦20</span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></div>
                     </div>
-                    <div>
+                    <div class="donationAmount">
                         <label>enter a custom amount <input type="text"></label>
+                    </div>
+                    <h1>Choose a donation frequency</h1>
+                    <div class="donationFrequency">
+                        <div><input type="checkbox" /> <span>Monthly</span></div>
+                        <div><input type="checkbox" /> <span>One Time</span></div>
+                    </div>
+                    <div class="donationButton">
+                        <button onclick="payWithRave()">Go to checkout</button>
                     </div>
                 </div>
                 <div class="main-info">
@@ -64,5 +72,8 @@
             
         </section>
     </div>
+
+    <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+    <script src="./scripts/donation.js"></script>
 </body>
 </html>
