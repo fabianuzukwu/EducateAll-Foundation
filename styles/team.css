@@ -98,6 +98,20 @@ option
 	font-weight: bolder;
 	cursor: pointer;
 }
+body.sticky-header-cover{
+	margin-top: 70px;
+}
+.sticky-header{
+	background:rgba(60, 30, 100, 0.9);
+	background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent);
+	position: fixed;
+	top:0;
+	height: 70px;
+	width:100%;
+
+	z-index: 99;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 .link-list
 {
 	display: flex;
