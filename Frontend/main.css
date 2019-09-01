@@ -21,6 +21,10 @@ nav {
     align-items: center;
     height: 10vh;
     padding: 0 10%;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 109;
 }
 
 
@@ -61,7 +65,7 @@ nav {
 .homepage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 90vh;
+    height: 100vh;
     padding: 0 10%;
     background-image: url(img/schoolkids.jpg);
     background-repeat: no-repeat;
@@ -349,7 +353,7 @@ footer .top img{
     display: grid;
     grid-template-columns: ifr;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     padding: 0 2%;
     
 }
