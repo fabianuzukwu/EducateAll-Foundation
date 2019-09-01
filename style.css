@@ -1,7 +1,11 @@
 body {
-    background-color: #2A1B3C;
-    margin: 0;
     font-family: 'Oswald', sans-serif;
+    background-image: url(https://res.cloudinary.com/timmix95/image/upload/e_grayscale/v1567342189/img12_mrb2vr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    background-attachment: fixed;
 }
 
 
@@ -12,6 +16,7 @@ body {
 
 .header {
     background: #2A1B3C;
+    margin: 30px;
 }
 
 .main-nav ul li{
@@ -47,109 +52,91 @@ body {
 }
 
 .logo img {
-    width: 300px;
+    width: 200px;
     height: 60px;
 }
 
-.contact h1 {
-    color: #2A1B3C;
-    padding-top: 100px;
-    text-align: center;
-    margin-bottom: 70px;
-}
-
-.contact {
-      background: #A4B1B4;
-  }
-
-  .contact h1 {
-      font-size: 40pt;
-  }
-
-  .contact p {
-      text-align: center;
-      font-size: 16pt;
-  }
-
-  .contact h2 {
-      text-align: center;
-  }
-
-  * {
+* {
     box-sizing: border-box;
   }
-
+  
   .column {
     float: left;
-    width: 33.33%;
+    width: 50%;
     padding: 10px;
-    height: 100px;
+    height: 300px;
   }
   
-  .column h3 {
-      text-align: center;
-  }
-
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  .contact span a  {
-      text-decoration: none;
-      color: #2A1B3C;
-      background: #fff;
-      border: 1px solid #2A1B3C;
-      padding: 10px 30px 10px 30px;
-      border-radius: 30px;
+  main {
+    margin: 30px;
   }
 
-  .contact span a:hover {
-      background: #D13B87;
+  .contact h2 {
+      padding-top: 150px;
+      text-align: center;
+      font-weight: lighter;
   }
 
-  .contact #email a {
-      text-decoration: none;
-      color: #2A1B3C;
+  hr {
+      width: 50px;
   }
 
-  .contact-form{
-    width: 700px;
-    background: #fff;
-    margin-left: 300px;
-    display: inline-block;
-    justify-content: center;
-    padding-top: 20px;
-    padding-left: 20px;
+  .contact .left {
+      margin-top: 70px;
+      padding-left: 70px;
   }
 
-  .contact-form input {
-      padding-top: 10px;
-      width: 305px;
-      padding: 10px;
-      margin: 10px;
-  }
-.contact-form #details input {
-    width: 93%;
-}
-
-  .contact-form a {
-      text-decoration: none;
-      color: #fff;
-      background: #2A1B3C;
-      padding: 10px 30px 10px 30px;
-      border-radius: 30px;
+  .contact .left p {
+      font-size: 18px;
+      line-height: 0;
+      font-weight: lighter;
   }
 
   .contact i {
-      color: #2A1B3C;
-      padding: 80px 10px 30px 10px;
-      font-size: 40pt;
+      font-size: 20px;
   }
 
-  .contact i:hover {
+  .right input {
+      padding: 10px;
+      margin-top: 20px;
+      width: 400px;
+      border: 1px solid;
+      background: #e5e5e5;
+      background-blend-mode: color;
+  }
+
+  .right textarea {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 400px;
+      background: transparent;
+      border: 1px solid;
+      background: #e5e5e5;
+      background-blend-mode: soft-light;
+  }
+
+  .right a {
+      text-decoration: none;
       color: #fff;
+      background: #d8412c;
+      padding: 5px 30px 5px 30px;
+      margin-left: 310px;
+      border-radius: 30px;
+  }
+
+  .right a:hover {
+      background: #D13B87;
+  }
+
+  #footer {
+    background: #2A1B3C;
+    margin-top: 30px;
   }
 
   .column-footer {
@@ -157,6 +144,7 @@ body {
     width: 25%;
     padding: 10px;
     height: 100px;
+    height: 200px;
   }
 
   .column-footer i {
@@ -171,6 +159,7 @@ body {
   
   .column-footer ul {
     list-style: none;
+    margin-bottom: 0px;
   }
 
   .column-footer ul li {
@@ -187,4 +176,4 @@ body {
   .column-footer a {
       text-decoration: none;
       color: #fff;
-  }
+  }  
