@@ -134,13 +134,13 @@ option
 {
 	text-align: center;
 }
-.nav-list a:link{
+.nav-list a{
 	text-decoration: none;
 	color:white;
 }
-.nav-list a:visited{
-	color: cornflowerblue;
-}
+/* .nav-list a:visited{ */
+	/* color: rgb(146, 167, 206); */
+/* } */
 #logo
 {
 	padding: 10px;
