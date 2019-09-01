@@ -13,7 +13,7 @@ html
 }
 body
 {
-	font-family: Raleway, Candara, segoe UI, sans-serif;
+	font-family: Montserrat, segoe UI, sans-serif;
 }
 p
 {
@@ -49,17 +49,19 @@ header > nav
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-right: 100px;
+	margin-right: 10px;
 	height: 80px;
 }
-header > nav > div
+header > nav > a
 {
 	display: block;
+	text-decoration: none;
+	color: white;
 	padding: 0 20px;
 	cursor: pointer;
 	transition: 0.4s ease-out;
 }
-header > nav > div:hover
+header > nav > a:hover
 {
 	transform: scale(1.05);
 	text-decoration: underline;
@@ -155,6 +157,16 @@ footer a
 	flex-direction: column;
 
 }
+.nav-list a{
+	text-decoration: none;
+	color: white;
+}
+.nav-list a:link{
+	color:white;
+}
+.nav-list a:visited{
+	color: cornflowerblue;
+}
 #title-section
 {
 	background-image: url("../images/homepage-bg.png");
@@ -203,7 +215,7 @@ footer a
 	border-radius: 30px;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
 	margin-left: 100px;
-	margin-top: 80px;
+	margin-top: 50px;
 	background-color: white;
 	color: var(--blue);
 }
@@ -230,8 +242,9 @@ footer a
 }
 #mission-div > #mission-desc
 {
-	border-left: 1px solid black;
+	border-left: 1px solid var(--blue);
 	text-align: left;
+	color: var(--blue);
 }
 #mission-div > *
 {
@@ -253,40 +266,23 @@ footer a
 	font-size: 40px;
 	text-align: left;
 }
-
-#talk-section-left > h1
+#talk-section img
 {
-	margin-left: 60px;
+	height: 400px;
+	margin-top: 50px;
 }
 #talk-section-right > h3
 {
-	font-size: 45px;
+	font-size: 42px;
 	display: block;
 	margin: 100px 20% 50px;
 }
 #talk-section-right > p
 {
-	font-size: 20px;
+	font-size: 18px;
 	display: block;
 	width: 80%;
 	margin: 20px auto;
-}
-#testimonials
-{
-	background-color: white;
-	padding-top: 40px;
-	height: 75vh;
-}
-#vidlist
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-#testimonials > h2
-{
-	margin-top: 60px;
-	font-size: 40px;
 }
 #links-div
 {
