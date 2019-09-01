@@ -94,7 +94,6 @@ footer a
 body.sticky-header-cover{
 	margin-top: 70px;
 }
-
 .sticky-header{
 	background:rgba(60, 30, 100, 0.9);
 	background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent);
