@@ -13,12 +13,11 @@ html
 }
 body
 {
-	font-family: Raleway, segoe UI, sans-serif;
+	font-family: Montserrat, segoe UI, sans-serif;
 }
 section
 {
 	position: relative;
-	min-height: 100vh;
 	text-align: center;
 	background: rgb(240, 240, 250);
 }
@@ -106,12 +105,13 @@ option
 .team-member-div
 {
 	background-color: white;
-	min-width: 40%;
+	min-width: 50%;
 	height: 200px;
 	border-radius: 3px;
 	padding: 20px 40px;
 	margin: auto;
 	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+	font-size: 15px;
 }
 .profile-pic > img
 {
@@ -164,7 +164,7 @@ option
 }
 #intro-section
 {
-	background-image: url("../images/homepage-bg.png");
+	background-image: url("../images/team-bg.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	margin-top: 0;
@@ -172,21 +172,24 @@ option
 	position: relative;
 	color: white;
 	text-align: left;
+	min-height: 68vh;
 }
 #intro-section h1
 {
-	font-size: 50px;
-	padding: 50px;
+	font-size: 35px;
+	padding: 0 30px;
 }
 #join-us
 {
 	font-size: 30px;
 	padding: 10px 50px;
 	margin-top: 60px;
-	margin-left: 100px;
+	margin-left: 150px;
 	border-radius: 30px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 	border: none;
 	cursor: pointer;
+	background-color: white;
 	transition: 0.4s ease-out;
 	color: var(--blue);
 }
@@ -197,7 +200,7 @@ option
 #intro-wrapper
 {
 	margin-top: 0;
-	height: 100vh;
+	height: 68vh;
 	padding-top: 0;
 	background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent);
 }
@@ -205,11 +208,13 @@ option
 {
 	background-color: rgb(240, 240, 250);
 	padding-bottom: 50px;
+	min-height: 100vh;
 }
 #search
 {
 	cursor: auto;
 	width: 350px;
+	margin-right: 60px;
 }
 #team-section h1
 {
@@ -220,7 +225,7 @@ option
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 30px 0px;
+	grid-gap: 50px 0px;
 	margin: auto auto;
 	padding-top: 50px;
 }
