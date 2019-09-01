@@ -14,5 +14,5 @@ ham.addEventListener("click", () => {
         line[1].style.opacity = `1`
         line[2].style.transform = `rotate(0) translate(0, 0)`
     }
-
+l
 })
