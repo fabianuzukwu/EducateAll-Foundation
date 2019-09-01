@@ -134,6 +134,12 @@ option
 {
 	text-align: center;
 }
+.nav-list a{
+	text-decoration: none;
+}
+.nav-list a:visited{
+	color: cornflowerblue;
+}
 #logo
 {
 	padding: 10px;

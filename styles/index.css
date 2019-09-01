@@ -155,6 +155,10 @@ footer a
 	flex-direction: column;
 
 }
+.nav-list a{
+	text-decoration: none;
+	color: white;
+}
 #title-section
 {
 	background-image: url("../images/homepage-bg.png");
