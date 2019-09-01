@@ -23,8 +23,8 @@
 
 #Team Page todo
 
-[ ] - (URGENT) Replace mockTeam's value (in scripts/team.js) with actual team data from our Google spreadsheet
+[x] - (URGENT) Replace mockTeam's value (in scripts/team.js) with actual team data from our Google spreadsheet
 
-[ ] - Get picture used for team page design from UI/UX team
+[x] - Get picture used for team page design from UI/UX team
 
 [ ] - Implement dropdown for team link in the header's navbar
