@@ -116,6 +116,83 @@ body {
   width: 70%;
 }
 
+.footer {
+	height: 150px;
+	background-color: rgb(74, 60, 103);
+	display: flex;
+	flex-direction: row;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer  h3 {
+	font-weight: 100;
+	margin: 20px auto;
+}
+
+.footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.link-list {
+	display: flex;
+	flex-direction: column;
+}
+
+#links-div {
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#go-to-top
+{
+	cursor: pointer;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	transition: 0.4s ease-out;
+}
+#go-to-top:hover {
+	background-color: rgba(224, 200, 203, 0.3);
+}
+#go-to-top > div {
+	width: 20px;
+	height: 20px;
+	margin: 17px auto;
+	border-top: 1px solid white;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid white;
+	transform: rotate(45deg);
+}
+
+#social-media {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#social-media a > img {
+	height: 30px;
+}
+
+#social-media a {
+	border-radius: 3px;
+	display: block;
+	border: 1px solid transparent;
+	padding: 5px 10px;
+}
+
+#social-media a:hover {
+	border: 1px solid white;
+}
 
 /* Donations Progress Bar code*/
 .progress-bg {
