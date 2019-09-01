@@ -2,7 +2,7 @@
 
 #Home Page todo
 
-[ ] - Get icon (not logo) from UI/UX for the website page title
+[x] - Get favicon (not logo) from UI/UX for the website page title
 
 [x] - Get logos from UI/UX and replace my "screenshotted" versions
 
@@ -19,3 +19,12 @@
 [ ] - Figure out penultimate section of the UI/UX design and include it
 
 [x] - Get social media icons from UI/UX
+
+
+#Team Page todo
+
+[ ] - (URGENT) Replace mockTeam's value (in scripts/team.js) with actual team data from our Google spreadsheet
+
+[ ] - Get picture used for team page design from UI/UX team
+
+[ ] - Implement dropdown for team link in the header's navbar
