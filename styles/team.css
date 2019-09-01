@@ -172,7 +172,7 @@ option
 {
 	background-image: url("../images/homepage-bg.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 100% !important;
 	margin-top: 0;
 	background-size: 100%;
 	position: relative;
