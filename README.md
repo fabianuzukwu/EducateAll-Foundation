@@ -17,6 +17,7 @@
 [x] - Get social media icons from UI/UX
 
 
+
 #Team Page todo
 
 [x] - (URGENT) Replace mockTeam's value (in scripts/team.js) with actual team data from our Google spreadsheet
