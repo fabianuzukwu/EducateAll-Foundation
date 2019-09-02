@@ -36,17 +36,19 @@ header > nav
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-right: 100px;
+	margin-right: 10px;
 	height: 80px;
 }
-header > nav > div
+header > nav > a
 {
 	display: block;
+	text-decoration: none;
+	color: white;
 	padding: 0 20px;
 	cursor: pointer;
 	transition: 0.4s ease-out;
 }
-header > nav > div:hover
+header > nav > a:hover
 {
 	transform: scale(1.05);
 	text-decoration: underline;
@@ -91,11 +93,6 @@ footer a
 {
 	text-decoration: none;
 	color: inherit;
-}
-option
-{
-	font-weight: bolder;
-	cursor: pointer;
 }
 .link-list
 {

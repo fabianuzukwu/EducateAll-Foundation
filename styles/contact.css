@@ -1,11 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
     height: 100vh;
-    
+    font-family: Montserrat, segoe UI, sans-serif;
 }
 
 .nav{
@@ -13,12 +14,11 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em 3em;
-    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url(contactpage.jpg);
+    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url("../images/contactpage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    font-family: Raleway, Candara, segoe UI, sans-serif;
 }
 
 ul li{
@@ -73,7 +73,10 @@ section{
     font-size: 25px;
     font-weight: 500;
 }
-
+input
+{
+    font-family: Montserrat, segoe UI, sans-serif;
+}
 .form{
     width: 40%;
     margin-left: 30%;
@@ -140,6 +143,7 @@ section{
     width: 40%;
     margin-left: 30%;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .newsletter div {
@@ -340,6 +344,50 @@ footer a
 	-o-transform: rotate(45deg);
 }
 
+header
+{
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background: linear-gradient(90deg, rgba(60,30,100,0.5), rgba(100,100,255,0)), url("../images/contactpage.jpg");
+}
+header > nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    height: 80px;
+}
+header > nav > a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+header > nav > a:hover
+{
+    transform: scale(1.05);
+    text-decoration: underline;
+    text-decoration-color: rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+}
+#contact-link
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-line: 5px;
+    display: inline-block;
+    position: relative;
+    padding-right: 30px;
+}
 @media screen and (max-width:640px){
     .right ul li {
         width: 100%;
