@@ -94,11 +94,6 @@ footer a
 	text-decoration: none;
 	color: inherit;
 }
-option
-{
-	font-weight: bolder;
-	cursor: pointer;
-}
 .link-list
 {
 	display: flex;

@@ -74,7 +74,7 @@ const mockTeam = [
 	{
 		name: "Onyeme Michael",
 		userName: "@Mykel",
-		dept: "FRONT END",
+		dept: "UI/UX",
 		profilePic: null,
 	},
 	{
@@ -128,7 +128,7 @@ const mockTeam = [
 	{
 		name: "Ochuba Samuel",
 		userName: "@esambooks",
-		dept: "FRONT END",
+		dept: "UI/UX",
 		profilePic: null,
 	},
 	{
@@ -182,7 +182,7 @@ const mockTeam = [
 	{
 		name: "Kingseley Umujeyan",
 		userName: "@kuic",
-		dept: "FRONT END",
+		dept: "UI/UX",
 		profilePic: null,
 	},
 	{
