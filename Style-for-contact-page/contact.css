@@ -5,12 +5,7 @@ html, body {
 
 body{
     height: 100vh;
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0)), url(contactpage.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    font-family: Raleway, Candara, segoe UI, sans-serif;
+    
 }
 
 .nav{
@@ -18,6 +13,12 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em 3em;
+    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url(contactpage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Raleway, Candara, segoe UI, sans-serif;
 }
 
 ul li{
@@ -27,7 +28,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color:black;
+    color:white;
     opacity: 8;
     font-size: 20px;
     font-weight: 500;
@@ -69,7 +70,7 @@ section{
 }
 
 .header p{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -82,7 +83,7 @@ section{
     width: 100%;
     margin: 30px 0;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #2E1F3E;
     height: 30px;
     background: rgba(0, 0, 0, 0);
     outline:none;
@@ -125,7 +126,7 @@ section{
     padding-right: 80px;
 }
 
-footer p{
+.section-newsletter p{
     text-align: center;
     margin-top: 40px;
     font-weight: 600;
@@ -138,6 +139,7 @@ footer p{
     background: #2E1F3E;
     width: 40%;
     margin-left: 30%;
+    margin-bottom: 20px;
 }
 
 .newsletter div {
@@ -182,4 +184,193 @@ div button:hover {
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+}
+
+#hr{
+	width: 60%;
+	height: 3px;
+	margin: 0 auto;
+	background-color: rgb(0, 0, 0, 0.2);
+	border: none;
+}
+
+.address-column
+{
+	width: 20%;
+	background-color: white;
+	box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: 0.4s ease-out;
+}
+
+.address-column:hover
+{
+	box-shadow: 0 0 5px 25px rgba(0, 0, 200, 0.1);
+}
+
+.address-column > img
+{
+	display: block;
+	margin: 10px auto;
+}
+.address-column > h3
+{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.address-column > p
+{
+	font-size: 11px;
+	display: block;
+	width: 70%;
+	margin: 20px;
+	word-wrap: break-word;
+}
+
+h2
+{
+	font-size: 60px;
+	font-weight: bolder;
+	text-shadow: 2px 2px 5px black;
+    padding: 50px;
+    color:  #2E1F3E;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blue{
+    color:#2E1F3E;
+    font-size: 16px;
+}
+
+footer
+{
+	height: 150px;
+	background-color: rgb(74, 60, 103);
+	display: flex;
+	flex-direction: row;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+}
+footer  h3
+{
+	font-weight: 100;
+	margin: 20px auto;
+}
+footer a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.link-list
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#links-div
+{
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#social-media
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#social-media a > img
+{
+	height: 30px;
+}
+#social-media a
+{
+	border-radius: 3px;
+	display: block;
+	border: 1px solid transparent;
+	padding: 5px 10px;
+}
+#social-media a:hover
+{
+	border: 1px solid white;
+}
+
+#go-to-top
+{
+	cursor: pointer;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	transition: 0.4s ease-out;
+}
+#go-to-top:hover
+{
+	background-color: rgba(224, 200, 203, 0.3);
+}
+#go-to-top > div 
+{
+	width: 20px;
+	height: 20px;
+	margin: 17px auto;
+	border-top: 1px solid white;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid white;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+@media screen and (max-width:640px){
+    .right ul li {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .address-column{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .newsletter{
+        width: 60%;
+        text-align: center;
+    }
+
+    .newsletter-mail, .btn-signup{
+        font-size: 5px;
+    }
+ 
+    footer{
+        font-size:10px;
+    }
+
+    footer div img{
+        margin-right: 11px;
+    }
+
+    .font-location{
+        font-size: 40px;
+    }
+
 }

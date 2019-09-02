@@ -42,13 +42,13 @@ const mockTeam = [
 		profilePic: null,
 	},
 	{
-		name: "Mbetobong Obot Umoh",
+		name: "Mbetobong Obot",
 		userName: "@mbetobong",
-		dept: "FRONT END",
+		dept: "CONTENT",
 		profilePic: null,
 	},
 	{
-		name: "Oyelami Temidayo Mary",
+		name: "Oyelami Temidayo",
 		userName: "@Temidayo Oyelami",
 		dept: "UI/UX",
 		profilePic: null,
@@ -84,7 +84,7 @@ const mockTeam = [
 		profilePic: null,
 	},
 	{
-		name: "Uzukwu Fabian",
+		name: "Fabian Uzukwu",
 		userName: "@Fabian",
 		dept: "FRONT END",
 		profilePic: null,
@@ -98,13 +98,13 @@ const mockTeam = [
 	{
 		name: "Olufemi Agbebi",
 		userName: "@Femi A",
-		dept: "UI/UX",
+		dept: "BACK END",
 		profilePic: null,
 	},
 	{
 		name: "Frederick Damascus",
 		userName: "@frede",
-		dept: "FRONT END",
+		dept: "UI/UX",
 		profilePic: null,
 	},
 	{
@@ -122,7 +122,7 @@ const mockTeam = [
 	{
 		name: "Mbah Chinedu",
 		userName: "@Ned",
-		dept: "FRONT END",
+		dept: "UI/UX",
 		profilePic: null,
 	},
 	{
@@ -133,7 +133,7 @@ const mockTeam = [
 	},
 	{
 		name: "Temitope Joan",
-		userName: "@Temitope Joan Akangbe",
+		userName: "@Temitope Joan",
 		dept: "FRONT END",
 		profilePic: null,
 	},
@@ -158,7 +158,7 @@ const mockTeam = [
 	{
 		name: "Henry Nnaji",
 		userName: "@Woody",
-		dept: "UI/UX",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
@@ -200,7 +200,7 @@ const mockTeam = [
 	{
 		name: "Taiwo Sadiq",
 		userName: "@Taiwo Sadiq",
-		dept: "UI/UX",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
@@ -235,13 +235,13 @@ const mockTeam = [
 	},
 	{
 		name: "Elijah Adeleke",
-		userName: "@elijahleke",
+		userName: "@Elijah Leke",
 		dept: "UI/UX",
 		profilePic: null,
 	},
 	{
 		name: "Winifred Ekwunife",
-		userName: "@winifred",
+		userName: "@Winifred",
 		dept: "UI/UX",
 		profilePic: null,
 	},
@@ -288,6 +288,12 @@ const mockTeam = [
 		profilePic: null,
 	},
 	{
+		name: "Adesanmi Adedayo",
+		userName: "@Adesanmi Adedayo",
+		dept: "UI/UX",
+		profilePic: null,
+	},
+	{
 		name: "Aniema Edet",
 		userName: "@Edet",
 		dept: "CONTENT",
@@ -313,8 +319,8 @@ const mockTeam = [
 	},
 	{
 		name: "Lilian Anigbogu",
-		userName: "FRONT END",
-		dept: "",
+		userName: "@Lilian Anigbogu",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
@@ -330,45 +336,171 @@ const mockTeam = [
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Okpala Faith",
+		userName: "@faithy",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Muhammad Zubairu",
+		userName: "@MZ Ahmerd",
+		dept: "BACK END",
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Clinton Mgbemene",
+		userName: "@thisclinton",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Olanrewaju Odutayo",
+		userName: "@Olanrewaju Odutayo",
+		dept: "CONTENT",
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Akinwunmi Akinbode",
+		userName: "@peezykon",
+		dept: "FRONT END",
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Awoyemi Abayomi",
+		userName: "@snoopymex",
+		dept: "CONTENT",
 		profilePic: null,
 	},
 	{
-		name: "",
-		userName: "",
-		dept: "",
+		name: "Olaiya Shakiru",
+		userName: "@olaiya",
+		dept: "CONTENT",
+		profilePic: null,
+	},
+	{
+		name: "Salami Saheed",
+		userName: "@Salami Saheed",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Ayo Onamusi",
+		userName: "@Ayo Onams",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Edem Essang",
+		userName: "@Edemoski",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Nde Theresa",
+		userName: "@Theresa Nde",
+		dept: "CONTENT",
+		profilePic: null,
+	},
+	{
+		name: "Shittu Toheebah",
+		userName: "@Toheebah",
+		dept: "UI/UX",
+		profilePic: null,
+	},
+	{
+		name: "Nasrullah Olajide",
+		userName: "@Nasrullah Olajide",
+		dept: "CONTENT",
+		profilePic: null,
+	},
+	{
+		name: "Ego Ugwu",
+		userName: "@ego",
+		dept: "CONTENT",
+		profilePic: null,
+	},
+	{
+		name: "Sinmiloluwa Sobogun",
+		userName: "@sinmi",
+		dept: "CONTENT",
+		profilePic: null,
+	},
+	{
+		name: "Jeffrey Akhidenor",
+		userName: "@Denor",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Azeez Rizqah",
+		userName: "@Rizqah",
+		dept: "UI/UX",
+		profilePic: null,
+	},
+	{
+		name: "Leonard Ugorji",
+		userName: "@LeoNuch",
+		dept: "BACK END",
+		profilePic: null,
+	},
+	{
+		name: "Ajayi Oluwatomisin",
+		userName: "@Ajayi Oluwatomisin",
+		dept: "BACK END",
+		profilePic: null,
+	},
+	{
+		name: "Okoro Sandra",
+		userName: "@sandie",
+		dept: "CONTENT",
+		profilePic: null,
+	},
+	{
+		name: "Mubarak Aderogba",
+		userName: "@mubarak",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Peace Onyekachi",
+		userName: "@Newchassis",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Ogunrinola Oluwaseyi",
+		userName: "@seyi",
+		dept: "UI/UX",
+		profilePic: null,
+	},
+	{
+		name: "Owoso Oluwasanmi",
+		userName: "@sanmi",
+		dept: "BACK END",
+		profilePic: null,
+	},
+	{
+		name: "Jude Ogbe",
+		userName: "@Jude Ogbe",
+		dept: "UI/UX",
+		profilePic: null,
+	},
+	{
+		name: "Odo Joshua",
+		userName: "@y3n0m",
+		dept: "FRONT END",
+		profilePic: null,
+	},
+	{
+		name: "Tobiloba Orekoya",
+		userName: "@Tobilobaorek",
+		dept: "UI/UX",
+		profilePic: null,
+	},
+	{
+		name: "Maximillian Ikechukwu",
+		userName: "@Milly",
+		dept: "UI/UX",
 		profilePic: null,
 	},
 ];
@@ -388,7 +520,7 @@ const fillGrid = arr =>
 		let imgDiv = document.createElement("div");
 		imgDiv.className = "profile-pic";
 		let img = document.createElement("img");
-		img.src = "images/team-member-pic.jpeg";
+		img.src = "images/profilepic.png";
 		img.height = 100;
 		img.alt = "UserPicture";
 		imgDiv.appendChild(img);
