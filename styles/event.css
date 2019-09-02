@@ -48,9 +48,10 @@
     border-top: none;
 }
 
-body {
-    background-image: https: //res.cloudinary.com/woodywiz/image/upload/v1567171247/My%20photos/liberia_classroom_large_dxlpgp.jpg ; 
-}
+
+/* body {
+    background-image: https: //res.cloudinary.com/woodywiz/image/upload/v1567171247/My%20photos/liberia_classroom_large_dxlpgp.jpg;
+} */
 
 .eventcontent {
     display: inline-block;
