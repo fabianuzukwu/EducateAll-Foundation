@@ -14,6 +14,7 @@ html {
 
 body {
     font-family: Raleway, Candara, segoe UI, sans-serif;
+    color: whitesmoke;
 }
 
 
@@ -169,7 +170,7 @@ footer a {
 
 #home-wrapper {
     margin-top: 0;
-    height: 100vh;
+    height: 120vh;
     padding-top: 0;
     /* background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent); */
     background: url(/images/Event.png);
@@ -361,4 +362,13 @@ footer a {
     color: whitesmoke;
     margin-top: -5em;
     margin-left: 45%;
+}
+
+.event-container {
+    display: flex;
+    width: 25rem;
+    height: 10em;
+    background: #C4C4C4;
+    padding: 10px;
+    justify-items: flex-start;
 }
