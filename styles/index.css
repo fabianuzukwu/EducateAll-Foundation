@@ -339,3 +339,15 @@ footer a
 {
 	border: 1px solid white;
 }
+a:link, a:visited {
+	background-color: #444857;
+	color: white;
+	padding: 6px 20px;
+	text-align: center;
+	text decoration: none;
+	display: inline-block;
+	box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+  a:hover, a:active {
+	background-color: #5959c1;
+}
