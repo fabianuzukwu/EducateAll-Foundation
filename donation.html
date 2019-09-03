@@ -36,18 +36,34 @@
                     </div>
                     <div class="donationAmount">
                         <label>Enter a custom amount <input type="text" id="amount"></label>
-                        <label>Enter your email <input type="email" id="email"></label>
-                        <label>Enter your first name <input type="text" id="firstname"></label>
-                        <label>Enter your last name <input type="text" id="lastname"></label>
-                        <label>Enter your phone number <input type="tel" id="phone"></label>
                     </div>
                     <h1>Choose a donation frequency</h1>
                     <div class="donationFrequency">
-                        <div><input type="checkbox" /> <span>Monthly</span></div>
-                        <div><input type="checkbox" /> <span>One Time</span></div>
+                        <div><input type="radio" name="frequency" /> <span>Monthly</span></div>
+                        <div><input type="radio" name="frequency" /> <span>One Time</span></div>
                     </div>
                     <div class="donationButton">
-                        <button onclick="payWithRave()">GO TO CHECKOUT</button>
+                        <button id="modal_opener">GO TO CHECKOUT</button>
+
+                        <div class="modal" style="display: none">
+                            <div class="overlay"></div>
+                            <div class="modal_content">
+                              <!-- Dynamic Section -->
+                              <div class="donationAmount">
+                                <label>Enter your email <input type="email" id="email"></label>
+                                <label>Enter your first name <input type="text" id="firstname"></label>
+                                <label>Enter your last name <input type="text" id="lastname"></label>
+                                <label>Enter your phone number <input type="tel" id="phone"></label>
+                              </div>
+                              <div class="donationButton">
+                                    <button onclick="payWithRave()">PAY</button>
+                                </div>
+                              <!-- End of Dynamic Section -->
+                              <button title="Close" class="close_modal">
+                                <i class="fas fa-times"></i>
+                              </button>
+                            </div>
+                          </div>
                     </div>
                 </div>
                 <div class="main-info">
