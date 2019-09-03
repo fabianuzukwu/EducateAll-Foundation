@@ -32,7 +32,7 @@ function payWithRave() {
                 response.tx.chargeResponseCode == "00" ||
                 response.tx.chargeResponseCode == "0"
             ) {
-                // redirect to a success page
+                // window.location.replace('file:///Users/nedurobert/Documents/SE/projects/startNG/EducateAll-Foundation/PaymentConfirmation.html')// redirect to a success page
             } else {
                 // redirect to a failure page.
             }
@@ -41,3 +41,31 @@ function payWithRave() {
         }
     });
 }
+
+const btn = document.getElementById('modal_opener');
+const modal = document.querySelector('.modal');
+
+function attachModalListeners(modalElm) {
+  modalElm.querySelector('.close_modal').addEventListener('click', toggleModal);
+  modalElm.querySelector('.overlay').addEventListener('click', toggleModal);
+}
+
+function detachModalListeners(modalElm) {
+  modalElm.querySelector('.close_modal').removeEventListener('click', toggleModal);
+  modalElm.querySelector('.overlay').removeEventListener('click', toggleModal);
+}
+
+function toggleModal() {
+  var currentState = modal.style.display;
+
+  // If modal is visible, hide it. Else, display it.
+  if (currentState === 'none') {
+    modal.style.display = 'block';
+    attachModalListeners(modal);
+  } else {
+    modal.style.display = 'none';
+    detachModalListeners(modal);  
+  }
+}
+
+btn.addEventListener('click', toggleModal);
