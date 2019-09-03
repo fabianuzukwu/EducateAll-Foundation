@@ -13,7 +13,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em 3em;
-    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url("https://res.cloudinary.com/fabianuzukwu/image/upload/v1567457203/EducateAll-Foundation/scwtxevfgu9bauun4mmc.jpg");
+    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url(https://res.cloudinary.com/fabianuzukwu/image/upload/v1567457203/EducateAll-Foundation/scwtxevfgu9bauun4mmc.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
