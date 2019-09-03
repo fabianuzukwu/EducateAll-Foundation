@@ -243,18 +243,9 @@ footer a
         margin-top: 20px;
     }
 
-    .address-column{
+    .event-column{
         width: 80%;
         margin-top: 20px;
-    }
-
-    .newsletter{
-        width: 60%;
-        text-align: center;
-    }
-
-    .newsletter-mail, .btn-signup{
-        font-size: 5px;
     }
  
     footer{
