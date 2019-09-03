@@ -1,19 +1,12 @@
-:root 
-{
-  --blue: #2E1F3E;/*rgb(60, 30, 100); */
-}
-*
-{
+*{
 	margin: 0;
 	padding: 0;
+	font-family: Raleway, Candara, segoe UI, sans-serif;
+    font-weight: 500;
 }
 html
 {
 	scroll-behavior: smooth;
-}
-body
-{
-	font-family: Montserrat, segoe UI, sans-serif;
 }
 p
 {
@@ -33,7 +26,7 @@ h2
 	font-weight: bolder;
 	text-shadow: 2px 2px 5px black;
 	padding: 50px;
-}
+} 
 header
 {
 	margin-top: 0;
@@ -49,24 +42,51 @@ header > nav
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-right: 10px;
+	margin-right: 100px;
 	height: 80px;
 }
-header > nav > a
+header > nav > div
 {
 	display: block;
-	text-decoration: none;
-	color: white;
 	padding: 0 20px;
 	cursor: pointer;
 	transition: 0.4s ease-out;
 }
-header > nav > a:hover
+header > nav > div:hover
 {
+	color: rgb(255, 255, 255);
+	background-color: rgb(2, 2, 58);
+	padding: 0.5em;
+	border-radius: 20px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 0.2em;
+	background-color: white;
+}
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right a {
+    text-decoration: none;
+    color: rgb(1, 1, 46);
+    font-weight: 500;
+    padding: 8px 16px;
+}
+.right a:hover {
 	transform: scale(1.05);
-	text-decoration: underline;
-	text-decoration-color: rgb(200, 200, 200);
-	color: rgb(200, 200, 200);
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 1, 46);
+	border-radius: 8px;
+}
+.active{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 1, 46);
+	border-radius: 8px;
 }
 h3
 {
@@ -97,7 +117,6 @@ footer a
 {
 	border: none;
 	cursor: pointer;
-	transition: 0.4s ease-out;
 }
 .blue
 {
@@ -157,21 +176,9 @@ footer a
 	flex-direction: column;
 
 }
-.nav-list a{
-	text-decoration: none;
-	color: white;
-}
-.nav-list a:link{
-	color:white;
-}
-.nav-list a:visited{
-	color: cornflowerblue;
-}
 #title-section
 {
-	background-image: url("../images/homepage-bg.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-image: url("../images/schoolkids.jpg");
 	margin-top: 0;
 	background-size: 100%;
 	position: relative;
@@ -187,13 +194,13 @@ footer a
 }
 #discover-more
 {
-	padding: 5px 25px;
+	padding: 8px 20px;
 	font-size: 20px;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
 	margin-left: 50px;
 	margin-top: 40px;
-	color: white;
+	color: rgb(1, 1, 46);
 	background-color: var(--blue);
 }
 #hr
@@ -206,22 +213,24 @@ footer a
 }
 #discover-more:hover
 {
-	padding-right: 40px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 1, 46);
 }
 #get-involved
 {
-	padding: 10px 50px;
-	font-size: 25px;
-	border-radius: 30px;
+	padding: 8px 20px;
+	font-size: 20px;
+	border-radius: 10px;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
 	margin-left: 100px;
-	margin-top: 50px;
+	margin-top: 80px;
+	color: rgb(1, 1, 46);
 	background-color: white;
-	color: var(--blue);
 }
 #get-involved:hover
 {
-	padding-right: 80px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 1, 46);
 }
 #logo
 {
@@ -242,9 +251,8 @@ footer a
 }
 #mission-div > #mission-desc
 {
-	border-left: 1px solid var(--blue);
+	border-left: 1px solid black;
 	text-align: left;
-	color: var(--blue);
 }
 #mission-div > *
 {
@@ -266,23 +274,40 @@ footer a
 	font-size: 40px;
 	text-align: left;
 }
-#talk-section img
+
+#talk-section-left > h1
 {
-	height: 400px;
-	margin-top: 150px;
+	margin-left: 60px;
 }
 #talk-section-right > h3
 {
-	font-size: 42px;
+	font-size: 45px;
 	display: block;
 	margin: 100px 20% 50px;
 }
 #talk-section-right > p
 {
-	font-size: 18px;
+	font-size: 20px;
 	display: block;
 	width: 80%;
 	margin: 20px auto;
+}
+#testimonials
+{
+	background-color: white;
+	padding-top: 40px;
+	height: 75vh;
+}
+#vidlist
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#testimonials > h2
+{
+	margin-top: 60px;
+	font-size: 40px;
 }
 #links-div
 {
@@ -322,10 +347,6 @@ footer a
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-}
-#social-media a > img
-{
-	height: 30px;
 }
 #social-media a
 {
