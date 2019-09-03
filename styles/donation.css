@@ -12,6 +12,7 @@ body {
   background-color: #210645;
   color: #FFF;
   width: 25%;
+  border-radius: 5%;
 }
 
 .donationOptions h1 {
@@ -237,6 +238,20 @@ body {
   text-align: center;
 }
 
+.modal_content img {
+  width: 100%;
+}
+
+.modal_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalImage {
+  border-right: 1px solid #FFF;
+  padding-right: 1.5em;
+}
+
 .modal .modal_content .buttons_wrapper {
   padding: 20px;
 }
@@ -251,14 +266,65 @@ body {
   background: none;
   border: none;
   transition: opacity 0.2s ease;
+  color: #FFF;
 }
 
 .modal .close_modal:hover {
   opacity: 0.9;
 }
 
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em;
+}
+
+.sponsors > h1 {
+  border-bottom: 1px solid #000;
+  line-height: 2;
+  font-size: 2em;
+}
+
+.sponsorsDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.sponsorsImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsorsImg > img {
+  width: 20%;
+  margin: 2em;
+}
+
+.sponsorsDetails h2 {
+  font-size: 57px;
+  color: #2A2E52;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 67px;
+  margin-bottom: 0.3em;
+}
+
+.sponsorsDetails p {
+  font-size: 17px;
+  color: #210645;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+
 /* Donations Progress Bar code*/
-.progress-bg {
+/* .progress-bg {
   margin: 0 auto;
   width: 65%;
   height: 78px;
@@ -268,33 +334,33 @@ body {
   -moz-box-shadow: inset 0 0 10px #ccc;
   -webkit-box-shadow: inset 0 0 10px #ccc;
   box-shadow: inset 0 0 10px #ccc;
-}
+} */
 
-.progress-bar {
+/* .progress-bar {
   height: 78px;
   border-radius: 10px;
   float: left;
   width: 50%;
   /* fallback */ 
-  background-color: #1c314a; 
+  /* background-color: #1c314a;  */
   
   /* Safari 4-5, Chrome 1-9 */ 
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c314a), to(#27425f)); 
+  /* background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c314a), to(#27425f));  */
   
   /* Safari 5.1, Chrome 10+ */ 
-  background: -webkit-linear-gradient(top, #1c314a, #27425f); 
+  /* background: -webkit-linear-gradient(top, #1c314a, #27425f);  */
   
   /* Firefox 3.6+ */ 
-  background: -moz-linear-gradient(top, #1c314a, #27425f); 
+  /* background: -moz-linear-gradient(top, #1c314a, #27425f);  */
   
   /* IE 10 */ 
-  background: -ms-linear-gradient(top, #1c314a, #27425f); 
+  /* background: -ms-linear-gradient(top, #1c314a, #27425f);  */
   
   /* Opera 11.10+ */ 
-  background: -o-linear-gradient(top, #1c314a, #27425f);	
-}
+  /* background: -o-linear-gradient(top, #1c314a, #27425f);	 */
+/* } */ 
 
-.progress-bg h3.goal, .progress-bg h3.raised {
+/* .progress-bg h3.goal, .progress-bg h3.raised {
   font-family: Arial,sans-serif;
   font-size: 2.7em;
   font-weight: 600;
@@ -319,37 +385,37 @@ body {
 
 body .progress-bg h3.raised {
   -webkit-animation: fadein 4s; /* Safari and Chrome */
-  -moz-animation: fadein 4s; /* Firefox */
-  -ms-animation: fadein 4s; /* Internet Explorer */
-  -o-animation: fadein 4s; /* Opera */
-  animation: fadein 4s;
-}
-
+  /* -moz-animation: fadein 4s; /* Firefox */
+  /* -ms-animation: fadein 4s; Internet Explorer */
+  /* -o-animation: fadein 4s; Opera */
+  /* animation: fadein 4s; */
+/* } */ 
+/* 
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
+}  */
 
 /* Firefox */
-@-moz-keyframes fadein {
+/* @-moz-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
+} */
 
 /* Safari and Chrome */
-@-webkit-keyframes fadein {
+/* @-webkit-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
+} */
 
 /* Internet Explorer */
-@-ms-keyframes fadein {
+/* @-ms-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}​
+}​ */
 
 /* Opera */
-@-o-keyframes fadein {
+/* @-o-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
 }​
@@ -359,8 +425,8 @@ body .progress-bg h3.raised {
   display: inline;
   padding: 0 25px 0 0;
   text-align: center;
-}
-
+} */
+/* 
 body .progress-bg div {
   -webkit-animation: progress-bar 2s ease forwards;
   -moz-animation: progress-bar 2s ease forwards;
@@ -392,5 +458,4 @@ body .progress-bg div {
   padding:20px;
   margin:20px 0;
   text-align: center
-}
-  
+} */
