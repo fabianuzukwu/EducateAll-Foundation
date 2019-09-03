@@ -14,25 +14,22 @@ html {
 
 body {
     font-family: Raleway, Candara, segoe UI, sans-serif;
-    color: whitesmoke;
 }
 
-
-/* p {
+p {
     font-size: 20px;
     padding-left: 30px;
-} */
+}
 
-
-/* section {
+section {
     position: relative;
     height: 100vh;
     text-align: center;
     background: rgb(240, 240, 250);
-} */
+}
 
 h2 {
-    /* font-size: 60px; */
+    font-size: 60px;
     font-weight: bolder;
     text-shadow: 2px 2px 5px black;
     padding: 50px;
@@ -171,11 +168,9 @@ footer a {
 
 #home-wrapper {
     margin-top: 0;
-    height: 120vh;
+    height: 100vh;
     padding-top: 0;
-    /* background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent); */
-    background: url(/images/Event.png);
-    background-size: cover;
+    background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent);
 }
 
 #discover-more {
@@ -221,7 +216,7 @@ footer a {
     margin-left: 120px;
 }
 
-#event-link {
+#home-link {
     text-decoration: underline;
     text-decoration-color: white;
     text-decoration-line: 5px;
@@ -344,32 +339,4 @@ footer a {
 
 #social-media a:hover {
     border: 1px solid white;
-}
-
-
-/* asuelimen israel */
-
-#donate-btn {
-    border: 2px solid rgb(33, 6, 69);
-    padding: 10px;
-    border-radius: 30px;
-    width: 7em;
-    text-align: center;
-    background-color: #2E1F3E;
-    box-shadow: 2px 2px 5px rgb(33, 6, 69);
-}
-
-#event-txt h2 {
-    color: whitesmoke;
-    margin-top: -5em;
-    margin-left: 45%;
-}
-
-.event-container {
-    display: flex;
-    width: 25rem;
-    height: 10em;
-    background: #C4C4C4;
-    padding: 10px;
-    justify-items: flex-start;
 }
