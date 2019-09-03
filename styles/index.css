@@ -146,9 +146,10 @@ footer a
 .article > p
 {
 	font-size: 14px;
+	line-height: 1.5;
 	display: block;
 	width: 70%;
-	margin: 20px;
+	margin: 15px;
 	word-wrap: break-word;
 }
 .link-list
