@@ -145,10 +145,11 @@ footer a
 }
 .article > p
 {
-	font-size: 11px;
+	font-size: 14px;
+	/* line-height: 1.2; */
 	display: block;
 	width: 70%;
-	margin: 20px;
+	margin: 15px;
 	word-wrap: break-word;
 }
 .link-list
@@ -279,7 +280,8 @@ footer a
 }
 #talk-section-right > p
 {
-	font-size: 18px;
+	font-size: 16px;
+	line-height: 1.5;
 	display: block;
 	width: 80%;
 	margin: 20px auto;
