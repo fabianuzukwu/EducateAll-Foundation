@@ -19,8 +19,8 @@ body {
 
 
 /* p {
-    font-size: 20px;
-    padding-left: 30px;
+font-size: 20px;
+padding-left: 30px;
 } */
 
 section {
@@ -169,8 +169,8 @@ footer a {
 }
 
 #home-wrapper {
-    margin-top: 0;
-    height: 120vh;
+    /* margin-top: 0; */
+    height: 160vh;
     padding-top: 0;
     /* background: linear-gradient(90deg, var(--blue), rgba(20, 20, 30, 0.7), transparent); */
     background: url(/images/Event.png);
@@ -358,6 +358,13 @@ footer a {
     box-shadow: 2px 2px 5px rgb(33, 6, 69);
 }
 
+
+/* main {
+} */
+
+
+/* upcoming events */
+
 #event-txt h2 {
     color: whitesmoke;
     margin-top: -5em;
@@ -368,7 +375,53 @@ footer a {
     display: flex;
     width: 25rem;
     height: 10em;
-    background: #C4C4C4;
+    background: rgb(158, 158, 158);
     padding: 10px;
     justify-items: flex-start;
+}
+
+#upcoming {
+    background: none;
+    float: right;
+    margin: 3%;
+}
+
+#event-image {
+    border: 1px solid skyblue;
+    padding: 15px;
+    margin-bottom: 3em;
+}
+
+
+/* recent events */
+
+#recent {
+    background: none;
+    float: left;
+    /* align-items: flex-start; */
+    margin: 2%;
+    margin-bottom: 2em;
+}
+
+.recent-container {
+    display: inline-block;
+    padding: 20px;
+    width: 13rem;
+    height: 10em;
+    background: rgb(158, 158, 158);
+    padding: 10px;
+    justify-items: flex-start;
+    border-radius: 5px;
+}
+
+.recent-container {
+    height: 5%;
+    width: 35%;
+}
+
+.recent-image img {
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
