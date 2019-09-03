@@ -14,11 +14,20 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em 3em;
-    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url("../images/contactpage.jpg");
+    background: linear-gradient(rgba(60,30,100,0.5), rgba(255,255,255,0)), url(../images/contactpage.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    font-family: Raleway, Candara, segoe UI, sans-serif;
+    font-size: 20px;
+}
+
+#home-link
+{
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-decoration-line: 5px;
 }
 
 ul li{
@@ -27,33 +36,20 @@ ul li{
 }
 
 ul li a{
-    text-decoration: none;
-    color:white;
-    opacity: 8;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 8px 16px;
+    display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0 20px;
+	cursor: pointer;
+	transition: 0.4s ease-out;
 }
 
 
 ul li a:hover {
-    color: #fff;
-    background: rgb(74, 60, 103);
-    border-radius:5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
-    transition: .4s;
-    -webkit-transition: .4s;
-    -moz-transition: .4s;
-    -ms-transition: .4s;
-    -o-transition: .4s;
-    transform: scale(1.1)        ;
-    -webkit-transform: scale(1.1)        ;
-    -moz-transform: scale(1.1)        ;
-    -ms-transform: scale(1.1)        ;
-    -o-transform: scale(1.1)        ;
+    transform: scale(1.05);
+	text-decoration: underline;
+	text-decoration-color: rgb(200, 200, 200);
+	color: rgb(200, 200, 200);
 }
 
 
