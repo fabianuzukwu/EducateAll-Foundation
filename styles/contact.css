@@ -86,6 +86,7 @@ input
     height: 30px;
     background: rgba(0, 0, 0, 0);
     outline:none;
+    font-size:17px;
 }
 .msg-share::placeholder{
     color: black;
