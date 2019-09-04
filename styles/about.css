@@ -44,13 +44,15 @@ section>img {
 	color: white;
 	font-weight: 500;
 	padding: 8px 16px;
+	cursor: pointer;
+	transition: 0.4s ease-out;
 }
 
 .right a:hover {
 	transform: scale(1.05);
-	color: rgb(255, 255, 255);
-	background-color: #2A2E52;
-	border-radius: 8px;
+	text-decoration: underline;
+	text-decoration-color: rgb(200, 200, 200);
+	color: rgb(200, 200, 200);
 }
 
 .active {
