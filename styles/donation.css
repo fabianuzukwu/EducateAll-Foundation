@@ -1,5 +1,9 @@
-body {
+body 
+{
     margin: 0 auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: Montserrat, Segoe UI, sans-serif !important;
 }
 
 #header {
@@ -118,9 +122,9 @@ body {
   width: 70%;
 }
 
-.footer {
+footer {
 	height: 150px;
-	background-color: rgb(74, 60, 103);
+	background-color: #2A2E52;
 	display: flex;
 	flex-direction: row;
 	color: white;
@@ -128,12 +132,12 @@ body {
 	align-items: center;
 }
 
-.footer  h3 {
+footer  h3 {
 	font-weight: 100;
 	margin: 20px auto;
 }
 
-.footer a {
+footer a {
 	text-decoration: none;
 	color: inherit;
 }
