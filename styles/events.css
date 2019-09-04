@@ -150,7 +150,7 @@ h2
 footer
 {
 	height: 150px;
-	background-color: rgb(74, 60, 103);
+	background-color: #2A2E52;
 	display: flex;
 	flex-direction: row;
 	color: white;

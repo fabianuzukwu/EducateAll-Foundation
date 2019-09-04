@@ -1,11 +1,15 @@
-body {
-  margin: 0 auto;
+body 
+{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: Montserrat, Segoe UI, sans-serif !important;
 }
 
 #header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation.png) no-repeat;
-  background-size: cover;
-  padding-bottom: 4em;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 4em;
 }
 
 .donationOptions {
@@ -118,9 +122,9 @@ body {
   width: 70%;
 }
 
-.footer {
+footer {
 	height: 150px;
-	background-color: rgb(74, 60, 103);
+	background-color: #2A2E52;
 	display: flex;
 	flex-direction: row;
 	color: white;
@@ -128,12 +132,12 @@ body {
 	align-items: center;
 }
 
-.footer  h3 {
+footer  h3 {
 	font-weight: 100;
 	margin: 20px auto;
 }
 
-.footer a {
+footer a {
 	text-decoration: none;
 	color: inherit;
 }
@@ -321,28 +325,6 @@ body {
   font-weight: bold;
   line-height: 20px;
   letter-spacing: 0.05em;
-}
-
-#amount {
-  margin-top: 1rem;
-  padding: 0.5rem 1.6rem;
-  border: none;
-  border-radius: 0.4rem;
-  transition: box-shadow 300ms;
-}
-
-#modal_opener {
-  padding: 0.7em 1.7em;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.2em;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
-  font-weight:400;
-  color:#210645;
-  background-color:#FFF;
-  box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
-  text-align:center;
 }
 
 /* Donations Progress Bar code*/
