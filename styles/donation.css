@@ -7,7 +7,7 @@ body
 }
 
 #header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/fabianuzukwu/image/upload/v1567457866/EducateAll-Foundation/gvatpva6qbusu9lgemkw.png") no-repeat;
     background-size: cover;
     padding-bottom: 4em;
 }
