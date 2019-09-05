@@ -152,6 +152,7 @@ footer a
 	display: block;
 	border-radius: 10px;
 	width: 50%;
+	font-size: 17px;
 	margin: auto;
 }
 .more-details:hover
