@@ -109,7 +109,6 @@ footer a
 	margin: auto;
 	position: relative;
 	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
-	font-size: 15px;
 }
 .profile-pic > img
 {
@@ -131,7 +130,7 @@ footer a
 	left: 10%;
 	margin-left: auto;
 	width: 80%;
-	background-color: var(--blue);
+	background-color: #2A2E52;
 	color: white;
 	border-radius: 5px;
 	
@@ -152,7 +151,7 @@ footer a
 	display: block;
 	border-radius: 10px;
 	width: 50%;
-	font-size: 15px;
+	font-size: 13px;
 	margin: auto;
 }
 .more-details:hover
