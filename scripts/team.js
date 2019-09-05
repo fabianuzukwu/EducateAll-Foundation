@@ -1,11 +1,11 @@
-const mockTeam = [
+const teamList = [
 	{
 		name: "Mary Idomo",
 		userName: "@Mary",
 		dept: "CONTENT",
 		profilePic: "https://res.cloudinary.com/marylyne/image/upload/v1566564607/Mary%20Idomo.jpg", 
 		contrib: "", 
-		more: "",
+		more: "Marylyne.github.io",
 	},
 	{
 		name: "Ikechukwu Onu",
@@ -187,9 +187,9 @@ const mockTeam = [
 		name: "Edima Inwang",
 		userName: "@Edima",
 		dept: "BACK END",
-		profilePic: null, 
+		profilePic: "https://res.cloudinary.com/davidofgold/image/upload/v1567573665/HNG%20project/Edima-pic_ay5xsc.jpg", 
 		contrib: "", 
-		more: "",
+		more: "https://davidofgold.github.io/startng/",
 	},
 	{
 		name: "Omodo Kome",
@@ -236,8 +236,8 @@ const mockTeam = [
 		userName: "@drlovenature",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/drlovenature/image/upload/v1567590888/Screenshot_20190904_103847_n5tnqn.jpg", 
-		contrib: "Supplied content for some pages", 
-		more: "",
+		contrib: "Supplied content and reviews for some pages", 
+		more: "https://drlovenature.github.io/MyCV/",
 	},
 	{
 		name: "Dennis Etiwe",
@@ -533,7 +533,7 @@ const mockTeam = [
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/onamusia/image/upload/v1567605657/Screenshot_2019-09-04_at_14.18.06_rap7kt.png", 
 		contrib: "Worked on payment confirmation/failure pages", 
-		more: "",
+		more: "https://ayo-codes.github.io/HNG/ayo.html",
 	},
 	{
 		name: "Akintunde Temitope",
@@ -793,14 +793,14 @@ const filter = () =>
 		case "4": filter = "UI/UX"; break;
 	}
 	if (filter === "ALL") 
-		filtered = mockTeam;
+		filtered = teamList;
 	else 
-		filtered = mockTeam.filter(guy => guy.dept === filter)
+		filtered = teamList.filter(guy => guy.dept === filter)
 
 	fillGrid(search ? filtered.filter(guy => 
 		guy.name.toLowerCase().includes(search) || guy.userName.toLowerCase().includes(search)) : filtered);
 
 }
 
-fillGrid(mockTeam);
+fillGrid(teamList);
 
