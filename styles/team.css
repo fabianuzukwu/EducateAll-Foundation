@@ -102,16 +102,20 @@ footer a
 .team-member-div
 {
 	background-color: white;
-	min-width: 50%;
-	height: 200px;
+	width: 80%;
+	height: 250px;
 	border-radius: 3px;
-	padding: 20px 40px;
+	padding: 10px 0;
 	margin: auto;
+	position: relative;
 	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
 	font-size: 15px;
 }
 .profile-pic > img
 {
+	min-height: 100px;
+	height: 100px;
+	width: 80px;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -122,10 +126,37 @@ footer a
 }
 .dept
 {
-	margin-top: 20px;
+	position: absolute;
+	bottom: 10px;
+	left: 10%;
+	margin-left: auto;
+	width: 80%;
 	background-color: var(--blue);
 	color: white;
 	border-radius: 5px;
+	
+}
+.contribution
+{
+	font-size: 12px;
+	padding-top: 10px;
+	display: block;
+	color: rgba(0, 0, 0, 0.8);
+	width: 75%;
+	margin: auto;
+}
+.more-details, .more-details:visited
+{
+	color: black;
+	transition: 0.4s ease-out;
+	display: block;
+	border-radius: 10px;
+	width: 50%;
+	margin: auto;
+}
+.more-details:hover
+{
+	color: rgb(100, 100, 255);
 }
 .no-matches
 {
