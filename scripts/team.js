@@ -236,7 +236,7 @@ const teamList = [
 		userName: "@drlovenature",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/drlovenature/image/upload/v1567590888/Screenshot_20190904_103847_n5tnqn.jpg", 
-		contrib: "Supplied content for some pages", 
+		contrib: "Supplied content and reviews for some pages", 
 		more: "https://drlovenature.github.io/MyCV/",
 	},
 	{
