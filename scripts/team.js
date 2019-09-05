@@ -45,7 +45,7 @@ const mockTeam = [
 		dept: "BACK END",
 		profilePic: "https://res.cloudinary.com/adetohun/image/upload/v1566572879/ppmini.jpg", 
 		contrib: "Created trello board for project management", 
-		more: "https://adetohun.github.io/",
+		more: "https://adetohun.github.io/starthng/",
 	},
 	{
 		name: "Abdulsalam Shuaib",

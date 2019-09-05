@@ -54,7 +54,6 @@ section>img {
 	text-decoration-color: rgb(200, 200, 200);
 	color: rgb(200, 200, 200);
 }
-
 .active {
 	border-bottom: 1px solid white;
 }
@@ -97,6 +96,7 @@ section>img {
 
 .main-content-right {
 	margin-left: 20px;
+	padding: 50px;
 }
 
 .header-text {
