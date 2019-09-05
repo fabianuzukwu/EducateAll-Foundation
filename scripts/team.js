@@ -581,7 +581,7 @@ const mockTeam = [
 		dept: "CONTENT",
 		profilePic: "https://res.cloudinary.com/partypack/image/upload/ar_1:1,b_rgb:ffffff,bo_5px_solid_rgb:e9f074,c_fill,g_auto,r_max,w_400/v1567539703/egougwu_ugqftf.jpg", 
 		contrib: "Supplied content for some pages", 
-		more: "https://egocious.github.io/",
+		more: "https://egocious.github.io/egougwu/",
 	},
 	{
 		name: "Sinmiloluwa Sobogun",
