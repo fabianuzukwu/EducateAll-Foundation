@@ -221,6 +221,7 @@ footer a
 	border-radius: 30px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 	border: none;
+	outline: none;
 	cursor: pointer;
 	background-color: white;
 	transition: 0.4s ease-out;
