@@ -116,7 +116,7 @@ const mockTeam = [
 		userName: "@Fabian",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/fabianuzukwu/image/upload/c_scale,h_160,w_160/v1566555460/l4oa3l4xh1nxlbaifwi4.png", 
-		contrib: "Edited home page content and coordinated all git contributions", 
+		contrib: "Team leader, edited home page content and coordinated all git contributions", 
 		more: "https://gallant-turing-51b0f2.netlify.com/",
 	},
 	{
