@@ -171,9 +171,9 @@ const mockTeam = [
 		name: "Ochuba Samuel",
 		userName: "@esambooks",
 		dept: "UI/UX",
-		profilePic: null, 
-		contrib: "", 
-		more: "",
+		profilePic: "https://res.cloudinary.com/esambooks/image/upload/v1566525997/Screenshot_2019-08-23_2_samenstein_SamuelOchuba_Twitter_si0d2h.png",  
+		contrib: "Worked on Website UI/UX, Made suggestion on features to be included", 
+		more: "https://ochuba.github.io/HngTask2/",
 	},
 	{
 		name: "Temitope Joan",
