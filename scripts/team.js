@@ -33,7 +33,7 @@ const teamList = [
 		dept: "BACK END",
 		profilePic: "https://res.cloudinary.com/amosspark/image/upload/c_scale,h_150,w_105/v1566521695/IMG_20180801_181800_chbhdg.png", 
 		contrib: "Wrote article for landing page", 
-		more: "",
+		more: "https://amosspark.github.io/CV/",
 	},
 	{
 		name: "Adedolapo Olayinka",
@@ -60,7 +60,7 @@ const teamList = [
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/absallam/image/upload/c_scale,h_304,q_40/v1567512682/IMG_19vqhl_zvshp9.jpg", 
 		contrib: "", 
-		more: "",
+		more: "absallam.github.io",
 	},
 	{
 		name: "Mbetobong Obot",
@@ -78,7 +78,7 @@ const teamList = [
 		dept: "UI/UX",
 		profilePic: "https://res.cloudinary.com/temidayomary/image/upload/v1567524090/Temmy1_hi2q3v.jpg", 
 		contrib: "Wrote review for getBarter app on PlayStore", 
-		more: "",
+		more: "https://temidayo99.github.io/first-html-project/",
 	},
 	{
 		name: "Oluwatimilehin Idowu",
@@ -94,9 +94,9 @@ const teamList = [
 		userName: "@Chisom Mbama",
 		code: "shn00696",
 		dept: "FRONT END",
-		profilePic: null, 
+		profilePic: "https://res.cloudinary.com/dlcjo3jva/image/upload/v1566604203/personal/IMG_9868_puka5e.jpg", 
 		contrib: "", 
-		more: "",
+		more: "https://thecodenurse.github.io/startintern/",
 	},
 	{
 		name: "Roland Decker",
@@ -214,7 +214,7 @@ const teamList = [
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/dqzvbxopb/image/upload/v1567641158/task/tsk_iyf0yr.jpg", 
 		contrib: "Front end for login/registration page", 
-		more: "",
+		more: "https://komeomodo.github.io/Start.ng-task2/",
 	},
 	{
 		name: "Akwagha Linda",
@@ -356,9 +356,9 @@ const teamList = [
 		name: "Omovoiye Cynthia",
 		userName: "@OmovoiyeCynthia",
 		dept: "FRONT END",
-		profilePic: null, 
+		profilePic: "res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_450,q_64,w_339/v1567722155/CynthiaOmovoiye/IMG_20190713_114718_1_ottz5s.jpg", 
 		contrib: "", 
-		more: "",
+		more: "https://cynthiaomovoiye.github.io/CynthiaOmovoiye/",
 	},
 	{
 		name: "Tosin Akinnanu",
@@ -470,7 +470,7 @@ const teamList = [
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/dxf9vzo5z/image/upload/v1566539625/prof-pic.jpg", 
 		contrib: "Worked on payment page", 
-		more: "",
+		more: "https://jazzmane.github.io",
 	},
 	{
 		name: "Abdulraham Yusuf",
@@ -574,7 +574,7 @@ const teamList = [
 		dept: "CONTENT",
 		profilePic: "https://res.cloudinary.com/dzflnjyii/image/upload/v1567632141/mee_yedo3u.jpg", 
 		contrib: "Coordinated the completion of the team spreadsheet for team page content", 
-		more: "",
+		more: "https://TheresaNde.github.io/",
 	},
 	{
 		name: "Shittu Toheebah",
