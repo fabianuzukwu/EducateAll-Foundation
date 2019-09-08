@@ -5,7 +5,7 @@ const teamList = [
 		dept: "CONTENT",
 		profilePic: "https://res.cloudinary.com/marylyne/image/upload/v1566564607/Mary%20Idomo.jpg", 
 		contrib: "", 
-		more: "",
+		more: "Marylyne.github.io",
 	},
 	{
 		name: "Ikechukwu Onu",
