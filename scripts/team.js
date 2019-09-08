@@ -2,6 +2,7 @@ const teamList = [
 	{
 		name: "Mary Idomo",
 		userName: "@Mary",
+		code: "shn0833",
 		dept: "CONTENT",
 		profilePic: "https://res.cloudinary.com/marylyne/image/upload/v1566564607/Mary%20Idomo.jpg", 
 		contrib: "", 
@@ -10,6 +11,7 @@ const teamList = [
 	{
 		name: "Ikechukwu Onu",
 		userName: "@infokid",
+		code: "shn01688",
 		dept: "UI/UX",
 		profilePic: "https://res.cloudinary.com/maxkdave/image/upload/v1566601511/ikechukwu_iz51mj.jpg", 
 		contrib: "Handled UI design for donation page, provided SEO tags", 
@@ -18,6 +20,7 @@ const teamList = [
 	{
 		name: "Muritala Muideen",
 		userName: "@Muideen MURITALA",
+		code: "shn00540",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/muideenam/image/upload/v1566579124/IMG_20171118_131857_wmq8gf.jpg", 
 		contrib: "Handled about page's markup and styling",
@@ -26,6 +29,7 @@ const teamList = [
 	{
 		name: "Ayobami Oguntolu",
 		userName: "@Spark",
+		code: "shn00540",
 		dept: "BACK END",
 		profilePic: "https://res.cloudinary.com/amosspark/image/upload/c_scale,h_150,w_105/v1566521695/IMG_20180801_181800_chbhdg.png", 
 		contrib: "Wrote article for landing page", 
@@ -34,6 +38,7 @@ const teamList = [
 	{
 		name: "Adedolapo Olayinka",
 		userName: "@Adedolapo Olayinka",
+		code: "shn00870",
 		dept: "UI/UX",
 		profilePic: null, 
 		contrib: "", 
@@ -42,6 +47,7 @@ const teamList = [
 	{
 		name: "Adetohun Ogunbowale",
 		userName: "@Adetohun",
+		code: "shn00178",
 		dept: "BACK END",
 		profilePic: "https://res.cloudinary.com/adetohun/image/upload/v1566572879/ppmini.jpg", 
 		contrib: "Created trello board for project management", 
@@ -50,6 +56,7 @@ const teamList = [
 	{
 		name: "Abdulsalam Shuaib",
 		userName: "@absallam",
+		code: "shn01772",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/absallam/image/upload/c_scale,h_304,q_40/v1567512682/IMG_19vqhl_zvshp9.jpg", 
 		contrib: "", 
@@ -58,6 +65,7 @@ const teamList = [
 	{
 		name: "Mbetobong Obot",
 		userName: "@mbetobong",
+		code: "shn01750",
 		dept: "CONTENT",
 		profilePic: "https://res.cloudinary.com/mbetobong/image/upload/v1567516251/Mbetobong_ysux0y.jpg", 
 		contrib: "Provided content for mission and vision statement", 
@@ -66,6 +74,7 @@ const teamList = [
 	{
 		name: "Oyelami Temidayo",
 		userName: "@Temidayo Oyelami",
+		code: "shn01304",
 		dept: "UI/UX",
 		profilePic: "https://res.cloudinary.com/temidayomary/image/upload/v1567524090/Temmy1_hi2q3v.jpg", 
 		contrib: "Wrote review for getBarter app on PlayStore", 
@@ -74,6 +83,7 @@ const teamList = [
 	{
 		name: "Oluwatimilehin Idowu",
 		userName: "@Timmix95",
+		code: "shn00492",
 		dept: "FRONT END",
 		profilePic: null, 
 		contrib: "", 
@@ -82,6 +92,7 @@ const teamList = [
 	{
 		name: "Chisom Mbama",
 		userName: "@Chisom Mbama",
+		code: "shn00696",
 		dept: "FRONT END",
 		profilePic: null, 
 		contrib: "", 
@@ -90,6 +101,7 @@ const teamList = [
 	{
 		name: "Roland Decker",
 		userName: "@roland",
+		code: "shn00193",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/trill2b/image/upload/v1567439250/My%20Face/RolandDecker.jpg", 
 		contrib: "Added donation page progress bar", 
@@ -98,6 +110,7 @@ const teamList = [
 	{
 		name: "Onyeme Michael",
 		userName: "@Mykel",
+		code: "shn01173",
 		dept: "UI/UX",
 		profilePic: "https://res.cloudinary.com/dy18y8k1e/image/upload/v1567516703/cool-1_yrfcm5.jpg", 
 		contrib: "", 
@@ -106,6 +119,7 @@ const teamList = [
 	{
 		name: "Adeyemo Oyinade",
 		userName: "@N",
+		code: "shn00767",
 		dept: "CONTENT",
 		profilePic: null, 
 		contrib: "", 
@@ -114,6 +128,7 @@ const teamList = [
 	{
 		name: "Fabian Uzukwu",
 		userName: "@Fabian",
+		code: "shn01207",
 		dept: "FRONT END",
 		profilePic: "https://res.cloudinary.com/fabianuzukwu/image/upload/c_scale,h_160,w_160/v1566555460/l4oa3l4xh1nxlbaifwi4.png", 
 		contrib: "Team leader, edited home page content and coordinated all git contributions", 
@@ -122,6 +137,7 @@ const teamList = [
 	{
 		name: "Lumen Sheik",
 		userName: "@denwia",
+		code: "shn04980",
 		dept: "BACK END",
 		profilePic: null, 
 		contrib: "", 
@@ -130,6 +146,7 @@ const teamList = [
 	{
 		name: "Olufemi Agbebi",
 		userName: "@Femi A",
+		code: "shn00156",
 		dept: "BACK END",
 		profilePic: "https://res.cloudinary.com/olufemi/image/upload/v1567461327/Femi_New_tiny_v2wgyr.jpg", 
 		contrib: "Managed deployment on GitHub pages", 
