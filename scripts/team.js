@@ -265,7 +265,7 @@ const teamList = [
 		more: "https://dwisecodedev.github.io/mycv.html/",
 	},
 	{
-		name: "Kingseley Umujeyan",
+		name: "Kingsley Umujeyan",
 		userName: "@kuic",
 		dept: "UI/UX",
 		profilePic: "https://res.cloudinary.com/kuic/image/upload/v1566490915/startNg2019/kuic_jxb4la.jpg", 
