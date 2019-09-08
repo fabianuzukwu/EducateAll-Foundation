@@ -356,7 +356,7 @@ const teamList = [
 		name: "Omovoiye Cynthia",
 		userName: "@OmovoiyeCynthia",
 		dept: "FRONT END",
-		profilePic: "res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_450,q_64,w_339/v1567722155/CynthiaOmovoiye/IMG_20190713_114718_1_ottz5s.jpg", 
+		profilePic: "https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_450,q_64,w_339/v1567722155/CynthiaOmovoiye/IMG_20190713_114718_1_ottz5s.jpg",
 		contrib: "", 
 		more: "https://cynthiaomovoiye.github.io/CynthiaOmovoiye/",
 	},
